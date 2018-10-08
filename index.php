@@ -27,6 +27,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <script src="main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
     
@@ -34,7 +35,16 @@
 
 <div class="header"> 
 
-    <div class="headertop">  </div>
+    <div class="headertop"> 
+        <div id="slideshow">
+            <div>
+                <img src="terv.png">
+            </div>
+            <div>
+                <img src="background.jpg">
+            </div>
+        </div> 
+    </div>
     <div class="headerbot"> 
     <li class="menu"> <a href= "index.php"> Főoldal </a> </li> 
     <li class="menu"> <a href= "kultura.php"> Kultúra  </a> </li> 

@@ -1,17 +1,10 @@
-setInterval(3000); <
-img src = "..."
-id = "myImage" >
+$("#slideshow > div:gt(0)").hide();
 
-
-    <
-    script type = "text/javascript" >
-    jQuery(function() {
-
-        // Fade In
-        $("#myImage").fadeIn();
-
-        // Fade Out
-        $("#myImage").fadeOut();
-        //This is a comment
-    }); <
-/script>
+setInterval(function() {
+    $('#slideshow > div:first')
+        .fadeOut(1000)
+        .next()
+        .fadeIn(1000)
+        .end()
+        .appendTo('#slideshow');
+}, 3000);
