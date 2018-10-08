@@ -8,3 +8,5 @@ setInterval(function() {
         .end()
         .appendTo('#slideshow');
 }, 3000);
+
+//ezt nem en irtam ide, csak githubon megosztottam a projektor es belemasztak :)
